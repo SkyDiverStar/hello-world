@@ -1,0 +1,6 @@
+Besonders heute ist Fitts Law besonders wichtig, durch das Aufkommen von grafischen Benutzeroberflächen und verschiedene Interaktionsarten. 
+Früher wurden die Experimente aber nicht auf grafische Benutzeroberflächen verwendet, sondern auf das Problem der Arbeitereffizienz angewandt; zum Beispiel bei Fertigungsstraßen und Montagearbeiten. Die Beschreibung des Zeigens von Fitts' Law hat folgende wichtige Parameter: 
+1. Die Zeit sich zum Ziel zu bewegen
+2. Die Bewegungsdistanz vom Startpunkt zum Zielmittelpunkt
+3. Die Zeilweite
+Paul Fitts hat in seine Forschung 3 Experimente gemacht. Erstens: Eine Aufgabe wo man mit 2 verschieden gewichteten Stiften die Geschwindigkeit misst; einmal mit einem 28,3g schweren Stift und einmal mit einem 453,6g schweren Stift. Zweitens: Eine Disktransfer Aufgabe. Und letztens: eine Pintransfer Aufgabe. Diese Experimente und Fitts' Law Gleichung zeigen auf was wichtig ist bei Zeigeraufgaben; wie zum Beispiel Zeigegeschwindigkeit, die Entfernung zum Ziel, die Größe des Ziels und die Genauigkeit. Dadurch haben wir auch eine Möglichkeit Aufgaben, Extremitäten und Geräte (im manuellen und virtuellen zeigen) zu vergleichen. Man sollte aber bedenken: Fitts' Law gibt keine Vorraussage wie die Leistung bestimmter Glieder oder Geräte ist.
