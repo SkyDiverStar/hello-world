@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\title{MCI Blatt 4}
+\author{Lukas Heiland 3269754\\ Felix Biedermann 3243495\\ Robert Philippsohn 3229888 }
+\date{May 2019}
+
+\begin{document}
+
+\maketitle
+
+\section*{Aufgabe C}
+    \subsection*{C.1}
+        Hand von der Tastatur zur Maus "von Bahnhof" anklicken und zurück zur Tastatur:\\
+        H $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ H\\
+        "Stuttgart Hauptbahnhof" eintippen:\\
+        M $\rightarrow$ $10*K$ $\rightarrow$ K $\rightarrow$ M $\rightarrow$ $13*K$\\
+        Hand von der Tastatur zur Maus "nach Bahnhof" anklicken und zurück zur Tastatur:\\
+        H $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ H\\
+        "Wien Hauptbahnhof" eintippen:\\
+        M $\rightarrow$ $5*K$ $\rightarrow$ K $\rightarrow$ M $\rightarrow$ $13*K$\\
+       	Hand zur Maus und Datum auswählen:\\
+       	H $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ P $\rightarrow$ B $\rightarrow$ P $\rightarrow$ B $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ M $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ M $\rightarrow$ P $\rightarrow$ BB\\
+       	Zeit auswählen:\\
+       	P $\rightarrow$ BB $\rightarrow$ H $\rightarrow$ M $\rightarrow$ $4*K$ $\rightarrow$ H\\
+       	1.Klasse auswählen und suchen:\\
+       	P $\rightarrow$ M $\rightarrow$ BB $\rightarrow$ P $\rightarrow$ BB $\rightarrow$ R\\
+       	
+       	\textbf{TCT =} $7*H + 12*P + 10*BB + 2*B + 8*M + 45*K + R$\\
+       	\hspace*{5.5mm}\textbf{TCT =} $7*0.4s + 12*1.1s + 10*0.2s + 2*0.1s + 8*1.35s + 45*0.28s + 3s = 44.6s $
+	\subsection*{C.2}
+		\begin{enumerate}
+			\item Tabulatortastenfunktion aktivieren, damit man schneller zwischen den Eingabefeldern wechseln kann. Oder man wechselt automatisch durch das Drücken der Enter-Taste die Felder. Hier von eine Zeichnung ist leider nicht so gut möglich, da es eine Funktion und keine direkte Interface Veränderung ist.
+			\item Eine Autovervollständigung welche wie der bahn.de Website agiert. Sobald man anfängt zu tippen, gibt das System Vorschläge vor, so dass man nicht mehr wie im jetzigen System den kompletten Text eingeben muss.
+			\includegraphics[scale=0.5]{C:/Users/Robert/Pictures/Unbenannt}
+		\end{enumerate}
+	\subsection*{C.3}
+		Durch die erste Methode entfällt sehr häufig das Homing und Pointing, was von jeweils von einem Tab drücken ersetzt wird. Dabei wird das Datum auch nicht mehr über die Maus sondern über die Tastatur eingegeben.\\
+		\textbf{TCT =} $4*H + 4*P + 4*BB + 8*M + 55*K + R = 36s$\\
+		Beim zweiten Beispiel müssen wir durch Autovervollständigung oder Wortvorschlägen nicht mehr so viele Wörter eintippen, sondern nur noch maximal 4 Buchstaben des Ortes plus die Tasten die wir drücken, für die Auswahl des Ortes, in unserem Beispiel 1. Dadurch entfällt auch meist das Überlegen nach dem Schreiben des Wortes.\\
+		\textbf{TCT =} $7*H + 12*P + 10*BB + 2*B + 6*M + 14*K +R = 33,22s$\\
+		In beiden Fällen verlaufen die restlichen Vorgänge wie vorhin in C.1 beschrieben. 
+\end{document}        

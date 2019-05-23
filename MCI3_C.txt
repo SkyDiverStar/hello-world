@@ -1,0 +1,15 @@
+C.1)
+Wir hatten 10 Teilnehmer, 9 Männliche Testpersonen und 1 Weibliche. Wir haben die 10 Teilnehmer in in 4 verschiedene Gruppen sortiert: Leute die erst den 1D-Test machen und dann den 2D-Test, erst mit Touch und dann mit der Maus; Leute die erst 1D und dann 2D erst mit Maus und Touch gemacht haben; Leute die erst 2D und dann 1D mit Touch und dann Maus gemacht haben; Leute die erst 2D und dann 1D mit Maus und danach Touch gemacht haben.
+
+C.2)
+Durchschnitt für a mit der Maus beim 1D-Test ist 666,3.
+Durchschnitt  für a mit der Touch beim 1D-Test ist 1026,6.
+Durchschnitt  für a mit der Maus beim 2D-Test ist 1047,1.
+Durchschnitt  für a mit der Touch beim 2D-Test ist 1581,5.
+Durchschnitt  für b mit der Maus beim 1D-Test ist 73,6.
+Durchschnitt  für b mit der Touch beim 1D-Test ist 12,8.
+Durchschnitt  für b mit der Maus beim 2D-Test ist -3,6.
+Durchschnitt  für b mit der Touch beim 2D-Test ist 16.
+
+C.3)
+Durch den Index of Difficulty sieht man wie schwer welche Aufgabe ist. Je größer das Objekt und je kleiner die Distanz zum Objekt, desto kleiner sollte ID sein und desto einfacher ist es dann. Anhand des ID sieht man, dass der 1D-Test mit Maus am einfachsten ist und der 2D-Test mit Touch am schwierigsten.
