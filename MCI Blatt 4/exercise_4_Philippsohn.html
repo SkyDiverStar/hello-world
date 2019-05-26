@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	form {
+		margin : 0 auto;
+		width:250px;
+	}
+	
+	p {
+		margin : 0 auto;
+		width:250px;
+	}
+	</style>
+</head>
+<body>
+	<form>
+		Distance: <input type="text" id="myText" name="distance">
+		Means of transportation:<br>
+		<input type="radio" id="car" name="art" value="Car" checked> Car <br>
+		<input type="radio" id="plane" name="art" value="Plane" > Plane <br>
+		<input type="radio" id="bike" name="art" value="Motorbike" > Motorbike <br>
+		<input type="radio" id="bus" name="art" value="Bus" > Bus <br>
+		<input type="radio" id="train" name="art" value="Train" > Train <br>
+		<input type="submit" id="submit" value="Calculate!">
+	</form>
+	<p> CO2: </p> <p id="Result"> </p>
+	<script>
+		var multiplier = 0;
+		var distance = 0;
+		function calculate(form,name,multiplier, distance){
+			var transportation;
+			var radios = form.elements[name];
+			for (var i=0; i<radios.length; i++){
+				if(radios[i].checked){
+					transportation = radios[i].value;
+					break;
+				}
+			}
+			switch (transportation){
+				case "Car":
+					multiplier = 124.8;
+					break;
+				case "Plane":
+					multiplier = 150.2;
+					break;
+				case "Motorbike":
+					multiplier = 86;
+					break;
+				case "Bus":
+					multiplier = 52;
+					break;
+				case "Train":
+					multiplier = 44;
+					break;
+			}
+			
+		}
+	</script>
+</body>
+</html>
