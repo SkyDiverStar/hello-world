@@ -14,46 +14,53 @@
 	</style>
 </head>
 <body>
-	<form>
-		Distance: <input type="text" id="myText" name="distance">
+	<form name="myForm">
+		Distance: <input type="number" id="myText" name="distance"> km
 		Means of transportation:<br>
 		<input type="radio" id="car" name="art" value="Car" checked> Car <br>
 		<input type="radio" id="plane" name="art" value="Plane" > Plane <br>
 		<input type="radio" id="bike" name="art" value="Motorbike" > Motorbike <br>
 		<input type="radio" id="bus" name="art" value="Bus" > Bus <br>
 		<input type="radio" id="train" name="art" value="Train" > Train <br>
-		<input type="submit" id="submit" value="Calculate!">
+		<input type="button" id="submit" value="Calculate!" onclick='calculate(myForm,art)'>
 	</form>
 	<p> CO2: </p> <p id="Result"> </p>
 	<script>
 		var multiplier = 0;
 		var distance = 0;
-		function calculate(form,name,multiplier, distance){
+		function calculate(form,name){
 			var transportation;
-			var radios = form.elements[name];
-			for (var i=0; i<radios.length; i++){
-				if(radios[i].checked){
-					transportation = radios[i].value;
-					break;
-				}
-			}
+			//Distanz aus dem Textfeld bekommen
+			distance = document.getElementById("myText").value;
+			//alle Radio Buttons bekommen
+			var radios = document.querySelector('input[name="art"]:checked').value;
+			transportation = radios;
+			console.log(transportation);
 			switch (transportation){
 				case "Car":
-					multiplier = 124.8;
+					multiplier = 124.5;
 					break;
 				case "Plane":
-					multiplier = 150.2;
+					multiplier = 115;
 					break;
 				case "Motorbike":
-					multiplier = 86;
+					multiplier = 83;
 					break;
 				case "Bus":
-					multiplier = 52;
+					multiplier = 66.8;
 					break;
 				case "Train":
-					multiplier = 44;
+					multiplier = 45.6;
+					break;
+				default:
+					alert("Transportation nicht regestriert!");
 					break;
 			}
+			console.log("-----------");
+			console.log(multiplier);
+			console.log("-----------");
+			console.log(distance);
+			document.getElementById("Result").innerHTML= multiplier*distance +"g/km";
 			
 		}
 	</script>
