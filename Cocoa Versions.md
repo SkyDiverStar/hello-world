@@ -23,3 +23,15 @@ If you increment a higher component, you zero out the lower ones, so `1.2.13` wo
 - **No versioning**: An developer who tests something and wonders why it doesn't work, when it should be, will be something that will happen without versioning.
 
 # Example Roadmap/Versioning for the Cocoa App
+| Version number | Description |
+| ----------- | ----------- |
+| v0.1.0 | UI and Scene are visible |
+| v0.2.0 | Robots can be opened and are visible |
+| v0.3.0 | TreeView is shown for Robot |
+| v0.4.0 | Import or Export are functional |
+| v0.5.0 | Save is functional |
+| v0.6.0 | Automatic adjustments when Robot is transformed or rotation axis is changed |
+| v0.7.0 | Robot can be edited and created |
+| v0.8.0 | Collision hull can be computed and is shown |
+| v0.9.0 | Refinements and polishing of the product to acceptable levels |
+| v1.0.0 | Release of finished product/ End of project |
